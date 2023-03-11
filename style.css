@@ -1,0 +1,74 @@
+/* Centers all content within the body of the lucky html file and ensures background is set to slate blue color
+    and font is set to the color white*/
+body.lucky{
+
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+    background-image: image("https://media.istockphoto.com/vectors/clover-vector-sketch-good-luck-lettering-vector-id1255574418?s=2048x2048");
+    background-repeat: repeat;
+}
+
+body.foster{
+    padding: 10px;
+}
+
+/* Styles the long html file for the listing */
+img.foster{
+    float:right;
+    padding-top: 20px;
+}
+
+p.price{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+div.foster{
+    padding-left: 5px;
+    padding-right: 5px;
+    float:right;
+    font-weight: bold;
+}
+
+div.foster2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+div.description{
+    font-family: Georgia, serif;
+    float: right;
+    font-size: 18px;
+}
+
+div.foster3{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+footer {
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+/* index.html styling features*/
+p.voter{
+    font-size: x-large;
+}
+div.voter{
+    font-size: large;
+}
+
+
+
+
+
+
