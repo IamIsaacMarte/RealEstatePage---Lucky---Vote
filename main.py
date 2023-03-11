@@ -6,7 +6,7 @@ from flask import Flask, render_template, request
 from datetime import datetime
 from random import randint
 from passlib.hash import sha256_crypt
-# import numpy as np
+
 
 app = Flask(__name__)  # Creates flash app instance
 
