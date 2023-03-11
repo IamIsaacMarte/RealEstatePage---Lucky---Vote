@@ -20,23 +20,23 @@ def long():
     return render_template('long.html', first=first, message=message)
 
 
-"""number_generator function uses the @app.route module with the created route name for the webpage being lucky 
-    which creates a number variable with a value of a random number and returns the template and number"""
-
-
 @app.route('/lucky')   # Decorator for URL route to webpage
 def number_generator():
+    
+    """number_generator function uses the @app.route module with the created route name for the webpage being lucky 
+    which creates a number variable with a value of a random number and returns the template and number"""
+    
     number = randint(1, 100)  # number variable is used to store a random value between 1 - 10
 
     return render_template('lucky.html', number=number)  # returns the webpage and random number generated
 
 
-"""index method simply returns the render template with the index html template. This template is actually a voter
-    registration form."""
-
-
 @app.route('/', methods=['GET', 'POST'])  # Decorator for index URL route to webpage
 def index():
+    
+    """index method simply returns the render template with the index html template. This template is actually a voter
+    registration form."""
+    
     date = datetime.now().strftime('%B/%d/%y')
     time = datetime.now().strftime('%I:%M%p')
     return render_template('index.html', time=time, date=date)
