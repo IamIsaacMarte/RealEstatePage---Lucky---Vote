@@ -5,4 +5,4 @@ Note: This program was meant to introduce python Flask and incorporate HTML and 
 
 # The realtor page of myself was an idea I had since I was a realtor at the time I made it. It may not be the case in the future so be aware that the link may or may not work. 
 
-# I created for different webpages one is a voter registration form, 2 are for the real estate bio and submission for imformation page, and the 4th is a lucky number which gives you a random number between 1 - 100.
+# I created four different webpages one is a voter registration form, 2 are for the real estate bio and submission for imformation page, and the 4th is a lucky number which gives you a random number between 1 - 100.
